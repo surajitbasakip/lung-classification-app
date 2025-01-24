@@ -6,7 +6,7 @@ import os
 
 # Constants
 IMG_SIZE = 64  # Image size should match your training size (64x64)
-MODEL_PATH = "/Users/freewheelin/covidLung/model_parameters.npz"  # Path to saved parameters
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "model_parameters.npz")  # Path to saved parameters
 CLASS_LABELS = {0: 'covid', 1: 'lung_opacity', 2: 'normal', 3: 'viral_pneumonia'}
 
 # Load model parameters
@@ -102,4 +102,4 @@ def predict():
 
 if __name__ == "__main__":
     # Run the Flask app
-    app.run(host="0.0.0.0", port=5001)
+    app.run(host="0.0.0.0", port=5002)
