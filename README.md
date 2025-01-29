@@ -7,7 +7,7 @@ This project implements a three-layer Deep Neural Network (DNN) using TensorFlow
 - **Lung Opacity (Non-COVID lung infection)**
 - **Normal Lungs**
 
-The dataset used for training is the **"COVID-19 Radiography Dataset"**. This classification is crucial for improving diagnostic accuracy and developing effective medical tools.
+The dataset used for training is the **"COVID-19 Radiography Dataset"**, with a specific focus on the "Lung Opacity (Non-COVID lung infection)" category, which includes various lung infections other than COVID-19. This classification is crucial for improving diagnostic accuracy and developing effective medical tools.
 
 ## Dataset
 - The dataset is stored in the folder: **`covid19_radiography_dataset`**.
@@ -16,8 +16,16 @@ The dataset used for training is the **"COVID-19 Radiography Dataset"**. This cl
 ## Model Architecture
 - **Deep Learning Framework:** TensorFlow
 - **Architecture:** Three-layer Deep Neural Network (DNN)
+- **Cost Function:** Categorical cross-entropy cost function.
+- **Training Details:**
+  - **Epochs:** 800
+  - **Final Cost:** 0.169048
+  - **Training Accuracy:** 93.99%
+  - **Testing Accuracy:** 77.86%
 - **Input:** Preprocessed lung X-ray images
 - **Output:** Predicted class (COVID, Pneumonia, Lung Opacity, or Normal)
+
+The trained parameters were saved and used for deployment.
 
 ## Deployment
 This project is deployed on **AWS EC2**, making it accessible via a public IP address.
@@ -48,6 +56,7 @@ This project is deployed on **AWS EC2**, making it accessible via a public IP ad
    python app.py
    ```
 3. Upload a lung X-ray image to get a prediction.
+
 
 ## Contributing
 Contributions are welcome! Feel free to submit issues or pull requests.
