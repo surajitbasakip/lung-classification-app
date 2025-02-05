@@ -11,17 +11,17 @@ The dataset used for training is the **"COVID-19 Radiography Dataset"**, with a 
 
 ## Dataset
 - The dataset is stored in the folder: **`covid19_radiography_dataset`**.
-- The Jupyter Notebook file used for training the model: **`covid_lung_v1.ipynb`**.
+- The Jupyter Notebook file used for training the model: **`covid_lung_v5.ipynb`**. The earlier versions of the notebook contains different combinaions of L2 regularization, dropout tuning and learning rate decay.
 
 ## Model Architecture
 - **Deep Learning Framework:** TensorFlow
 - **Architecture:** Three-layer Deep Neural Network (DNN)
 - **Cost Function:** Categorical cross-entropy cost function.
 - **Training Details:**
-  - **Epochs:** 800
-  - **Final Cost:** 0.169048
-  - **Training Accuracy:** 93.99%
-  - **Testing Accuracy:** 77.86%
+  - **Epochs:** 240
+  - **Final Cost:** 0.022944
+  - **Training Accuracy:** 99.65%
+  - **Testing Accuracy:** 82.14%
 - **Input:** Preprocessed lung X-ray images
 - **Output:** Predicted class (COVID, Pneumonia, Lung Opacity, or Normal)
 
