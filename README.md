@@ -63,4 +63,4 @@ This project is licensed under the **MIT License**.
 
 ---
 ### Contact
-For questions or collaboration, reach out at **[surajitbasakip@example.com](mailto:surajitbasakip@example.com)**.
+For questions or collaboration, reach out at **[surajitbasakip@gmail.com](mailto:surajitbasakip@gmail.com)**.
