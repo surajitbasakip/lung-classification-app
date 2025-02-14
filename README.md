@@ -58,12 +58,9 @@ This project is deployed on **AWS EC2**, making it accessible via a public IP ad
 3. Upload a lung X-ray image to get a prediction.
 
 
-## Contributing
-Contributions are welcome! Feel free to submit issues or pull requests.
-
 ## License
 This project is licensed under the **MIT License**.
 
 ---
 ### Contact
-For questions or collaboration, reach out at **[your-email@example.com](mailto:your-email@example.com)**.
+For questions or collaboration, reach out at **[surajitbasakip@example.com](mailto:surajitbasakip@example.com)**.
